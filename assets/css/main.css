@@ -1,11 +1,20 @@
+:root {
+  --theme-red: #ff3434;
+  --theme-blue: #3434ff;
+  --theme-green: #ff7434;
+  --theme-white: #e0e0e0;
+  --theme-yellow: #ffff34;
+  --theme-grey: #cecfc9;
+}
+
 body {
   margin: 0;
-  background-color: rgba(214, 214, 214, 0.308);
+  background-color: var(--theme-grey, #e0e0e0);
 }
 header {
   width: 100%;
   display: flex;
-  background-color: #fff;
+  background-color: var(--theme-green, #fff);
   padding: 0 30px;
   position: fixed;
   top: 0px;
