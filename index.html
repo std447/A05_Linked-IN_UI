@@ -2,96 +2,89 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Linked-In UI</title>
-
-  <link rel="stylesheet" href="assets\css\main.css" />
-  <script rel="javascript" src="assets\js\main.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./assets/css/main.css" />
+  <script rel="javascript" src="./assets/js/main.js"></script>
 </head>
 
 <body>
-  <header>
-    <div class="search-cont">
-      <div class="img-logo">
-        <img src="assets\images\logo-linkedin.png" class="logo" />
+  <main>
+    <header>
+      <div class="search-cont">
+        <div class="img-logo">
+          <img src="assets/images/logo-linkedin.png" class="logo" />
+        </div>
+        <div id="search-box">
+          <img src="assets/images/icon-search.png" alt="search" id="search" />
+          <input type="text" name="search" id="search-bar" placeholder="Search" />
+        </div>
       </div>
-      <div id="search-box">
-        <img src="assets\images\icon-search.png" alt="search" id="search" />
-        <input type="text" name="search" id="search-bar" placeholder="Search" />
+      <div class="icon-cont">
+        <div class="icon-box">
+          <img src="assets/images/icon-network.png" alt="My Network" class="icon network" />
+        </div>
+        <p class="text">My Network</p>
       </div>
-    </div>
-
-    <div class="nav">
-      <nav>
-        <div class="icon-cont">
-          <img src="assets\images\icon-home.png" alt="home-icon" class="icon" />
-          <p class="text">Home</p>
-        </div>
-        <div class="icon-cont">
-          <div class="icon-box">
-            <img src="assets\images\icon-network.png" alt="My Network" class="icon network" />
-          </div>
-          <p class="text">My Network</p>
-        </div>
-        <div class="icon-cont">
-          <img src="assets\images\icon-job.png" alt="Jobs" class="job icon" />
-          <p class="text">Jobs</p>
-        </div>
-        <div class="icon-cont">
-          <img src="assets\images\icon-message.png" alt="Messa" class="icon" />
-          <p class="text">Messaging</p>
-        </div>
-        <div class="icon-cont">
-          <img src="assets\images\icon-bell.png" alt="Notifications" class="icon" />
-          <p class="text">Notifications</p>
-        </div>
-        <div class="icon-cont" id="right-border">
-          <img src="assets\images\icon-profile.png" alt="Profile Picture" class="icon profile" />
-          <p class="text">
-            <select name="Profile" id="profile">
-              <option value="Me" selected>Me</option>
-            </select>
-          </p>
-        </div>
-        <div class="icon-cont">
-          <img src="assets\images\icon-grid.png" alt="Work" class="icon" />
-          <p class="text">
-            <select name="Job" id="job">
-              <option value="Work" selected>Work</option>
-            </select>
-          </p>
-        </div>
+      <div class="icon-cont">
+        <img src="assets/images/icon-job.png" alt="Jobs" class="job icon" />
+        <p class="text">Jobs</p>
+      </div>
+      <div class="icon-cont">
+        <img src="assets/images/icon-message.png" alt="Messa" class="icon" />
+        <p class="text">Messaging</p>
+      </div>
+      <div class="icon-cont">
+        <img src="assets/images/icon-bell.png" alt="Notifications" class="icon" />
+        <p class="text">Notifications</p>
+      </div>
+      <div class="icon-cont" id="right-border">
+        <img src="assets/images/icon-profile.png" alt="Profile Picture" class="icon profile" />
+        <p class="text">
+          <select name="Profile" id="profile">
+            <option value="Me" selected>Me</option>
+          </select>
+        </p>
+      </div>
+      <div class="icon-cont">
+        <img src="assets/images/icon-grid.png" alt="Work" class="icon" />
+        <p class="text">
+          <select name="Job" id="job">
+            <option value="Work" selected>Work</option>
+          </select>
+        </p>
+      </div>
       </nav>
       <div class="text">Try premium for free</div>
-    </div>
-  </header>
+      </div>
+    </header>
 
 
-  <main>
-    <div class="cont-out">
-      <aside id="left">
-        <div class="border">
-          <div class="background-image"></div>
-        </div>
-        <div class="border sticky">Recent</div>
-      </aside>
+    <main>
+      <div class="cont-out">
+        <aside id="left">
+          <div class="border">
+            <div class="background-image"></div>
+          </div>
+          <div class="border sticky">Recent</div>
+        </aside>
 
-      <section class="center" id="feed">
-        <div class="posts border">A</div>
-        <div class="posts border">B</div>
-        <div class="posts border">C</div>
-        <div class="posts border">D</div>
-        <div class="posts border">E</div>
-      </section>
-      <aside id="right">
-        <div class="border">Linked In News</div>
-        <div class="border sticky">Ads</div>
-      </aside>
-    </div>
+        <section class="center" id="feed">
+          <div class="posts border">A</div>
+          <div class="posts border">B</div>
+          <div class="posts border">C</div>
+          <div class="posts border">D</div>
+          <div class="posts border">E</div>
+        </section>
+        <aside id="right">
+          <div class="border">Linked In News</div>
+          <div class="border sticky">Ads</div>
+        </aside>
+      </div>
 
-  </main>
+    </main>
 
 </body>
 
